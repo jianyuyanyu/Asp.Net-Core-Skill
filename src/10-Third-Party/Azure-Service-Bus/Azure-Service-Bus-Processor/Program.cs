@@ -8,7 +8,7 @@ using System.Text.Json;
 Console.InputEncoding = Encoding.UTF8;
 Console.OutputEncoding = new UTF8Encoding(encoderShouldEmitUTF8Identifier: false);
 
-string connectionString = "Endpoint=sb://test-linkora.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=4802Q1N5Zl4I9fwii3Bv3c/iUyU9+TbAU+ASbG8hsqw=";
+string connectionString = "";
 string queueName = "notification-events";
 
 var client = new ServiceBusClient(connectionString);
