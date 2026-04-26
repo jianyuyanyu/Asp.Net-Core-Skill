@@ -15,21 +15,25 @@ CREATE TABLE IF NOT EXISTS public.ai_pricing_policy
     created_at timestamp with time zone NOT NULL DEFAULT now(),
 )
 
-CREATE TABLE IF NOT EXISTS public.ai_usage_record
+CREATE TABLE IF NOT EXISTS public.llm_usage_record
 (
-    id serial NOT NULL,
+    request_id text primary key,
+    call_type text,
+    api_key text,
+    api_base text,
     user_id bigint,
-    provider character varying(32) COLLATE pg_catalog."default" NOT NULL,
-    service character varying(32) COLLATE pg_catalog."default" NOT NULL,
-    feature character varying(64) COLLATE pg_catalog."default" NOT NULL,
-    model character varying(64) COLLATE pg_catalog."default",
-    meter character varying(32) COLLATE pg_catalog."default" NOT NULL,
-    quantity numeric(18,6) NOT NULL,
-    request_id integer,
-    source character varying(32) COLLATE pg_catalog."default",
-    type character varying(256) COLLATE pg_catalog."default",
+    
+    start_time timestamp without time zone,
+    end_time timestamp without time zone,
+    input_token bigint,
+    input_token_cost numeric(18,6),
+    output_token bigint,
+    output_token_cost numeric(18,6),
+    total_tokens bigint,
+    total_token_cost numeric(18,6),
+    duration_ms integer,
     created_at timestamp with time zone NOT NULL DEFAULT now(),
-    created_user_id integer NOT NULL,
+    created_by integer NOT NULL,
 )
 
 CREATE TABLE public.users (
