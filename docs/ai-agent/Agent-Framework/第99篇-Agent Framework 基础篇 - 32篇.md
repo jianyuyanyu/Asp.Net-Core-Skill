@@ -18,7 +18,7 @@
 
 ### 📦 代码仓库重构
 
-笔者对仓库进行了重构与优化，之前仓库下的大概几百篇涉及`AspNetCore`的文章的案例以迁移到`_archive`目录下，仓库重命名`dotnet-agent-playbook` 将打造一个dotnet AI Agent实战指南，涵盖从基础到进阶的多个主题模块。老的项目结构已调整，新的目录结构更清晰，便于大家查找与学习。请以本篇文章中列举的 GitHub 地址为准。
+笔者对仓库进行了重构与优化，之前仓库下的大概几百篇涉及`AspNetCore`的文章的案例已迁移到`_archive`目录下，仓库重命名`dotnet-agent-playbook` 将打造一个dotnet AI Agent实战指南，涵盖从基础到进阶的多个主题模块。老的项目结构已调整，新的目录结构更清晰，便于大家查找与学习。请以本篇文章中列举的 GitHub 地址为准。
 
 仓库地址 `https://github.com/bingbing-gui/dotnet-agent-playbook`⭐️ Star 支持
 
@@ -70,7 +70,7 @@
 ⭐ 欢迎大家前往查看并 Star 支持！
 
 
-### 🗂️ 系列目录（第1篇～第32篇）
+### 🗂️ 系列目录（第1篇～第30篇）
 
 **第1篇｜使用Agent Framework构建你的第一个Agent应用**  
    - 📄 [文章地址](https://mp.weixin.qq.com/s/tBOMo1AXqzZEjeBwirIRFQ)  
@@ -105,90 +105,90 @@
    - 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/08-AgentObservability`
 
 **第9篇｜使用依赖注入构建Agent**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/jaAEN8_KGxd3oJa4BMlk1A)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/09-DI`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/jaAEN8_KGxd3oJa4BMlk1A)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/09-DI`
 
 **第10篇｜将Agent暴露为mcp工具供第三方安全调用**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/tDN2JzDDyhenEuW303ZAFg)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/10-AgentAsMcpTools`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/tDN2JzDDyhenEuW303ZAFg)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/10-AgentAsMcpTools`
 
 **第11篇｜Agent Framework构建视觉Agent**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/IXaZF_ckQzYX_ONGLdYRxw)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/11-Vision-Agent`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/IXaZF_ckQzYX_ONGLdYRxw)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/11-Vision-Agent`
 
 **第12篇｜Agent Framework构建可组合的多agent系统**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/YJC64q8p4GErNrKL-hjWtA)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/12-Agent-As-Function-Tool`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/YJC64q8p4GErNrKL-hjWtA)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/12-Agent-As-Function-Tool`
 
 **第13篇｜不阻塞、不等待：让Agent像后台服务一样持续运行**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/mawpOV42Cw7DURx3ew4nGg)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/13-Backgroud-Response-With-Tool-And-Persistence`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/mawpOV42Cw7DURx3ew4nGg)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/13-Backgroud-Response-With-Tool-And-Persistence`
 
 **第14篇｜Agent Framework中的 Middleware 设计：从 HTTP Pipeline 到 AI Agent Pipeline**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/jQJDwunLFtyUOsYgKiEAKg)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/14-Agent-Middleware`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/jQJDwunLFtyUOsYgKiEAKg)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/14-Agent-Middleware`
 
 **第15篇｜Agent Framework中 IChatReducer 进行聊天记录缩减**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/k0Vz0AvV3CkI1Prvs-KdnQ)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/15-ChatReduction`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/k0Vz0AvV3CkI1Prvs-KdnQ)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/15-ChatReduction`
 
 **第16篇｜如何用 Plugins 和依赖注入为 AI Agent 装上外挂**  
-	- 📄 [文章地址](...)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/16-Plugins`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/9wnncnhKUHbPzy1CsbOsZQ)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/16-Plugins`
 
 **第17篇｜Agent Framework中构建声明式（Declarative）AI Agent**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/vb26P6ArE52zYukspqGmmQ)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/17-Declarative-Agent`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/vb26P6ArE52zYukspqGmmQ)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/17-Declarative-Agent`
 
 **第18篇｜Microsoft Agent Framework 集成 MCP：基于 STDIO 的工具接入**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/g2NP1EOGqKCcN9XIPhl51w)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/18-Agent-MCP-Server-Stdio`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/g2NP1EOGqKCcN9XIPhl51w)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/18-Agent-MCP-Server-Stdio`
 
 **第19篇｜Agent-To-Agent协议**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/5m35kWf9vvPTyeEAbbRqWw)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/19-A2AProtocal`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/5m35kWf9vvPTyeEAbbRqWw)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/19-A2AProtocal`
 
 **第20篇｜使用 Microsoft Foundry 实现持久化 Agents**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/mmeGOVJS5gYSKJRC_W8wmw)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/20-Persistent-Agent`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/mmeGOVJS5gYSKJRC_W8wmw)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/20-Persistent-Agent`
 
 **第21篇｜使用Microsoft Agent Framework与Microsoft Foundry构建持久化 AI Agent（AIProjectClient）**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/srl9dxPh7crp-r8-BDuoIA)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/21-Persistent-Agent-AIProject`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/srl9dxPh7crp-r8-BDuoIA)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/21-Persistent-Agent-AIProject`
 
 **第22篇｜OpenAI API 调用模式对比：ChatCompletions vs Response API**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/JtKjx6Ok4HEdYcupvnj6rg)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/22-OpenAI-API-Patterns`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/JtKjx6Ok4HEdYcupvnj6rg)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/22-OpenAI-API-Patterns`
 
 **第23篇｜Agent Framework 集成 GitHub Copilot SDK，实现 AI 自动操控你的电脑**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/3DW3GbICujuRtRFm4WWqtw)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/23-GitHubCopilotSDK`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/3DW3GbICujuRtRFm4WWqtw)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/23-GitHubCopilotSDK`
 
 **第24篇｜Agent Framework 接入 Ollama（本地模型实践记录）**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/H0LoWUKNnlYA7b-FMezqVA)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/24-Agent-On-Ollama`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/H0LoWUKNnlYA7b-FMezqVA)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/24-Agent-On-Ollama`
 
 **第25篇｜从 MCP 到 Skill：基于 FileBased Skill 与 Agent Framework 的实践探索**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/u5pwD_Qy_DoHtdDGQi55GQ)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/25-FileBased-Agent-Skills`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/u5pwD_Qy_DoHtdDGQi55GQ)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/25-FileBased-Agent-Skills`
 
 **第26篇｜基于 CodeDefined Skill 与 Agent Framework 的实践探索**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/R8ndIcS5QkpeDieyqUWg2Q)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/26-CodeDefined-Agent-Skills`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/R8ndIcS5QkpeDieyqUWg2Q)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/26-CodeDefined-Agent-Skills`
 
 **第27篇｜基于 ClassBased Skill 与 Agent Framework 的实践探索**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/RMyjuBohYruW2j24iTw0Cg)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/27-ClassBased-Agent-Skills`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/RMyjuBohYruW2j24iTw0Cg)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/27-ClassBased-Agent-Skills`
 
 **第28篇｜基于 FileBased、CodeBased 和 ClassBased 组合 Skills 与 Agent Framework 的实践探索**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/ZJVMgolAI1BrXJqUEdju0g)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/28-Mixed-Agent-Skills`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/ZJVMgolAI1BrXJqUEdju0g)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/28-Mixed-Agent-Skills`
 
 **第29篇｜在 Agent Framework 中为 Agent Skill 接入依赖注入 DI**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/YFNpAZWb-Ojnea2tTlD-Kw)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/29-AgentSkill-Integration-DI`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/YFNpAZWb-Ojnea2tTlD-Kw)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/29-AgentSkill-Integration-DI`
 
 **第30篇｜Agent Framework接入原生DeepSeek-v4-pro**  
-	- 📄 [文章地址](https://mp.weixin.qq.com/s/P6kpgat5OOCLS-bc8PMaQw)  
-	- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/30-Agent-Providers-DeepSeek`
+- 📄 [文章地址](https://mp.weixin.qq.com/s/P6kpgat5OOCLS-bc8PMaQw)  
+- 💻 GitHub源代码地址：`https://github.com/bingbing-gui/dotnet-agent-playbook/tree/master/src/ai-agent/Agent-Framework/30-Agent-Providers-DeepSeek`
 
