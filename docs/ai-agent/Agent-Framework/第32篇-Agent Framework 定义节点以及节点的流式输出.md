@@ -7,7 +7,7 @@
 
 ## 如何创建执行器
 
-定义了两个 executor。
+我们定义两个 executor。
 
 第一个是 `UppercaseExecutor`，负责把输入字符串转换成大写：
 
