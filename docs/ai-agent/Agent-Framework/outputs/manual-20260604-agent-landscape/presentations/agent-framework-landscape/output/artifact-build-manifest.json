@@ -1,0 +1,27 @@
+{
+  "output": "E:\\dotnet-agent-playbook\\docs\\ai-agent\\Agent-Framework\\outputs\\manual-20260604-agent-landscape\\presentations\\agent-framework-landscape\\output\\agent-framework-landscape.pptx",
+  "outputBytes": 19478,
+  "slideCount": 1,
+  "slideSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "previewDir": "E:\\dotnet-agent-playbook\\docs\\ai-agent\\Agent-Framework\\outputs\\manual-20260604-agent-landscape\\presentations\\agent-framework-landscape\\preview",
+  "previewPaths": [
+    "E:\\dotnet-agent-playbook\\docs\\ai-agent\\Agent-Framework\\outputs\\manual-20260604-agent-landscape\\presentations\\agent-framework-landscape\\preview\\slide-01.png"
+  ],
+  "layoutDir": "E:\\dotnet-agent-playbook\\docs\\ai-agent\\Agent-Framework\\outputs\\manual-20260604-agent-landscape\\presentations\\agent-framework-landscape\\layout\\final",
+  "layoutResults": [
+    {
+      "layoutPath": "E:\\dotnet-agent-playbook\\docs\\ai-agent\\Agent-Framework\\outputs\\manual-20260604-agent-landscape\\presentations\\agent-framework-landscape\\layout\\final\\slide-01.layout.json"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "requestedSlideNumber": 1,
+      "modulePath": "E:\\dotnet-agent-playbook\\docs\\ai-agent\\Agent-Framework\\outputs\\manual-20260604-agent-landscape\\presentations\\agent-framework-landscape\\slides\\slide-01.mjs",
+      "exportName": "slide01"
+    }
+  ]
+}
