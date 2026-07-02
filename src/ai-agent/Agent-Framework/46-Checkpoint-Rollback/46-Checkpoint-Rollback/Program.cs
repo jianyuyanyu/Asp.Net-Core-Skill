@@ -2,7 +2,11 @@
 
 using _46_Checkpoint_Rollback;
 using Microsoft.Agents.AI.Workflows;
+using System.Text;
 
+
+Console.InputEncoding = Encoding.UTF8;
+Console.OutputEncoding = new UTF8Encoding(encoderShouldEmitUTF8Identifier: false);
 
 var workflow = WorkflowFactory.BuildWorkflow();
 

@@ -61,4 +61,4 @@ src/
 
 ## 仓库地址
 
-https://github.com/bingbing-gui/dotnet-platform
+https://github.com/bingbing-gui/dotnet-agent-playbook
